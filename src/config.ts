@@ -25,11 +25,11 @@ export const NAV_ITEMS: NavItems = {
 
 export const SITE = {
     // Your site's detail?
-    name: 'Ink',
+    name: 'Juan Ignacio Londra',
     title: 'Astro - Ink',
-    description: 'Crisp, minimal, personal blog theme for Astro',
+    description: 'Un lugar cerca de Elven Village',
     url: 'https://astro-ink.vercel.app',
-    githubUrl: 'https://github.com/one-aalam/astro-ink',
+    githubUrl: 'https://github.com/jualon92',
     listDrafts: true
     // description ?
 }
