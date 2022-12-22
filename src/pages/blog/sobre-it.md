@@ -13,8 +13,10 @@ category: proyectos
  
 The other day i was walking with a friend, what were we talking about?
 Something about a silly printer that every n day stopped working.
-And it that moment of effortless, daily, chit chat we use to have, there was this ... guy, proomtply interrumping us,
-as if he chose to stand between both of us with no introduction. 
+
+
+And it that moment of effortless, almost daily,  chit chat we use to have, there was this ... person, interrupting us out of the blue,as if he chose to stand between both of us with no introduction. 
+
 When do you guys finish your shift?,  he said 
 
 See, when one reads this out of place question, in a  moment and time far away from the common hurries of the day to day, 
