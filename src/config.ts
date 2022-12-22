@@ -3,20 +3,17 @@ import type{ NavItems } from './types'
 export const NAV_ITEMS: NavItems = {
     home: {
         path: '/',
-        title: 'home'
-    },
-    blog: {
-        path: '/blog',
-        title: 'blog'
-    },
+        title: 'Blog'
+    }, 
+   /*  lectura: {
+        path: '/readingList',
+        title: 'Lista Lectura'
+    }, */
     tags: {
         path: '/tags',
         title: 'tags'
     },
-    media: {
-        path: '/media',
-        title: 'media'
-    },
+   
     about: {
         path: '/about',
         title: 'about'
