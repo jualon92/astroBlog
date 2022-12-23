@@ -5,10 +5,10 @@ export const NAV_ITEMS: NavItems = {
         path: '/',
         title: 'Blog'
     }, 
-   /*  lectura: {
+     lectura: {
         path: '/readingList',
-        title: 'Lista Lectura'
-    }, */
+        title: 'Libros'
+    },  
     tags: {
         path: '/tags',
         title: 'tags'
@@ -23,8 +23,8 @@ export const NAV_ITEMS: NavItems = {
 export const SITE = {
     // Your site's detail?
     name: 'Juan Ignacio Londra',
-    title: 'Astro - Ink',
-    description: 'Un lugar cerca de Elven Village',
+    title: 'Home',
+    description: 'Have a nice cup of ☕ ',
     url: 'https://astro-ink.vercel.app',
     githubUrl: 'https://github.com/jualon92',
     listDrafts: true
