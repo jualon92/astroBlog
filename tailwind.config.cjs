@@ -1,9 +1,10 @@
-const { fontFamily } = require('tailwindcss/defaultTheme')
+const { fontFamily } = require('tailwindcss/defaultTheme');
+const { indigone, ambersky } = require('./tailwind.theme.config');
 const config = require('./tailwind.theme.config')
 /**
  * Find the applicable theme color palette, or use the default one
  */
-const themeConfig = process.env.THEME_KEY && config[process.env.THEME_KEY] ? config[process.env.THEME_KEY] : config.default
+const themeConfig = indigone
 const { colors } = themeConfig
 module.exports = {
     darkMode: 'class',

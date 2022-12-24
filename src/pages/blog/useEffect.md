@@ -15,8 +15,7 @@ image: https://images.unsplash.com/photo-1589409514187-c21d14df0d04?ixid=MnwxMjA
 category: trabajo
 ---
 
-
-# useEffect nos ofrece una solucion...
+ 
 Nos encontramos enredados en el nuevo proyecto apenas comenzamos, pero podriamos lograr salir de todo aquel enredo:
 
 Utilizando  useEffect,  agregando varios estados como dependencia, fetchs de por medio, loading bar antes del fetch   
@@ -24,7 +23,7 @@ Agregamos funciones auxiliares, if, loops, mas funciones... y lo logramos...
  
 Se siente algo asi
  
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/e1GmgE7Men0" title="A Glimpse of Light" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="680" height="410" src="https://www.youtube.com/embed/e1GmgE7Men0" title="A Glimpse of Light" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   
   
@@ -42,7 +41,7 @@ En ese escenario, hay ciertas elementos que se repiten:
 
 ## Dificultades a encontrar
  
-Antes de dar mi pov de porque useEffect es una receta de problemas al largo plazo, lets the expert do the talking:
+Antes de dar mi pov de porque useEffect para data fetching es una receta de problemas al largo plazo, lets the expert do the talking:
 https://www.reddit.com/r/reactjs/comments/vi6q6f/what_is_the_recommended_way_to_load_data_for/
 
 
@@ -51,8 +50,10 @@ https://www.reddit.com/r/reactjs/comments/vi6q6f/what_is_the_recommended_way_to_
 
 >Race conditions. If you don't write a cleanup function that ignores stale responses, you'll likely introduce bugs when responses arrive in a different order. This article explains it well.
 
+>These are really problems with "fetching on mount" as a general concept, not with React or useEffect.
+
  
-### Como useEffect puede dejarnos un sabor amargo
+### Como useEffect para data fetching puede dejarnos un sabor amargo
 Se busca en el proyecto:
 
 

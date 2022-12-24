@@ -6,10 +6,10 @@ module.exports = {
      */
      purpleheart: {
         colors: {
-            primary: colors.red[700],
-            secondary: colors.red[800],
+            primary: colors.purple[700],
+            secondary: colors.purple[800],
             dark: {
-                primary: colors.red[300],
+                primary: colors.purple[300],
                 secondary: colors.purple[500]
             },
             accent: {
@@ -26,8 +26,8 @@ module.exports = {
      */
     pinktown: {
         colors: {
-            primary: colors.red[700],
-            secondary: colors.red[800],
+            primary: colors.pink[700],
+            secondary: colors.pink[800],
             dark: {
                 primary: colors.pink[300],
                 secondary: colors.pink[500]
@@ -106,11 +106,11 @@ module.exports = {
      */
     indigone: {
         colors: {
-            primary: colors.indigo[700],
-            secondary: colors.indigo[800],
+            primary: colors.red[700],
+            secondary: colors.red[800],
             dark: {
-                primary: colors.indigo[300],
-                secondary: colors.indigo[500]
+                primary: colors.red[300],
+                secondary: colors.red[500]
             },
             accent: {
                 gray: {
@@ -146,8 +146,8 @@ module.exports = {
      */
     default: {
         colors: {
-            primary: colors.red[700],
-            secondary: colors.red[800],
+            primary: colors.purple[700],
+            secondary: colors.purple[800],
             dark: {
                 primary: colors.purple[300],
                 secondary: colors.purple[500]
