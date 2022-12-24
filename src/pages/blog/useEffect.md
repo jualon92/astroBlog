@@ -97,7 +97,7 @@ Si queremos que en la seccion b se altere datos de la seccion a. Simplemente lla
 
  - Operaciones que supondrian una barra de carga:
 Al borrar un item, deberiamos recibir la nueva lista de items, cargar un spinner y rehacer la tabla.
-Con SWR podemos utilizar OptimisticUI y que confie en nosotros que el nuevo data[] sera el valor del fetch. El usuario no tendra que esperar el nuevo array.
+Con SWR podemos utilizar OptimisticUI y que confie en nosotros que el nuevo data[] sera lo que le pasemos. Asi El usuario no tendra que esperar el resultado del fetch para ver los cambios efectuados
 
 
  # Conclusion
