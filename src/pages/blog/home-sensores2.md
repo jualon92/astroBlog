@@ -15,8 +15,8 @@ category: proyectos
 ---
  
  
- <img src="/images/uploads/arduino_sides.jpg" alt="arduino set up with sensors on a table"> 
- 
+ <Image src="/images/uploads/arduino_sides.jpg"   alt="arduino set up with sensors on a table"/> 
+
 # Las bases
 Lo que se buscaba era medir la temperatura en la habitacion, mostrarlas en una tabla, en tiempo real, como si fuera un pronostico de la tv.
 
@@ -42,9 +42,9 @@ Los nuevos must have entonces cambiaron a:
 Tiempo despues me encontraba utilizando next para el trabajo,
 y me vino como anillo al dedo utilizarlo como static site generator.
 
-### Justo lo que buscaba.
+### Resultados
 La barra de carga ya no es requerida, se cargan los datos necesarios para recibir al usuario. 
-El resto mediante SWR se trae under the hood.
+El resto de las entradas de tabla  se trae under the hood  mediante SWR
 
 
 ### Tablas y sus riesgos
@@ -58,7 +58,7 @@ No queria toparme dos veces con ese problema que requiere tantas vueltas.
 Comence con el sensor de temperatura y humedad, y fui expandiendo.
 
 Lo que mas me costo fue acostumbrarme a utilizar ; en C++ , diferencias entre lecturas analogicas y digitales,
-el terror de haber quemado arduino al invetir positivo con negativo...
+el terror de haber quemado arduino al invertir positivo con negativo...
  
 
 # En resumen
@@ -78,8 +78,9 @@ el terror de haber quemado arduino al invetir positivo con negativo...
  
 
 ## Pendientes
-Definitivamente el primer Pendiente es tapar con cinta negra los led para dormir en paz.
-Estaria bueno ver como salir un poco de la tabla, y dibujar graficos del ultimo mes o semana.
+ - Tapar con cinta negra los led para dormir en paz.
+
+ - Estaria bueno ver como despegarse un poco de la tabla, y dibujar graficos del ultimo mes o semana.
 
 
 

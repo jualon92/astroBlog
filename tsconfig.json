@@ -14,11 +14,12 @@
       "allowJs": true,
       "checkJs": true,
       "baseUrl": ".",
+      "types": ["@astrojs/image/client"],
       "paths": {
         "$components": ["./src/components"],
         "$": ["./src"]
       },
-      "types": ["astro/env"]
+      "types": ["astro/env", "@astrojs/image/client"] 
     },
     "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts"],
 }
