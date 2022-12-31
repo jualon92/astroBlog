@@ -14,6 +14,9 @@ image: https://images.unsplash.com/photo-1589409514187-c21d14df0d04?ixid=MnwxMjA
 category: proyectos
 ---
  
+ 
+ <img src="/images/uploads/arduino_sides.jpg" alt="arduino set up with sensors on a table"> 
+ 
 # Las bases
 Lo que se buscaba era medir la temperatura en la habitacion, mostrarlas en una tabla, en tiempo real, como si fuera un pronostico de la tv.
 
@@ -31,28 +34,29 @@ Me parecia cluncky, uno no cambia de canal y espera que el canal cargue.. - Debe
 
 ## Segundo intento
 Los nuevos must have entonces cambiaron a:
- - El usuario al entrar deberia encontrarse los datos ya esperandolos. Un buen rating de First Conteful Paint  
+ - El usuario al entrar deberia encontrarse ya con los datos esperandolo. Un buen rating de First Conteful Paint  
  - La tabla con cientos de datos deberia ser liviana de utilizar para el usuario 
 
 
 ## Ultimos pasos
 Tiempo despues me encontraba utilizando next para el trabajo,
-y me vino como anillo al dedo utilizarlo para generar un site estatico. 
+y me vino como anillo al dedo utilizarlo como static site generator.
 
-### Era justo lo que buscaba.
+### Justo lo que buscaba.
 La barra de carga ya no es requerida, se cargan los datos necesarios para recibir al usuario. 
-El resto mediante SWR se trae por lo bajo. 
+El resto mediante SWR se trae under the hood.
 
 
 ### Tablas y sus riesgos
 Agregue una libreria de tabla virtualizada, ya que me tope con problemas de rendimiento en el trabajo con tablas
-con al mostrar +100 entradas.
+  al mostrar +100 entradas.
 
 No queria toparme dos veces con ese problema que requiere tantas vueltas.
 
 
 ### Desafios
 Comence con el sensor de temperatura y humedad, y fui expandiendo.
+
 Lo que mas me costo fue acostumbrarme a utilizar ; en C++ , diferencias entre lecturas analogicas y digitales,
 el terror de haber quemado arduino al invetir positivo con negativo...
  
@@ -69,5 +73,14 @@ el terror de haber quemado arduino al invetir positivo con negativo...
  - Utilizar next + vercel nos ahorra tener que utilizar Heroku o similares.
 
  
+## Fotos 
+<img src="/images/uploads/arduino_top.jpg" alt="arduino set up with sensors on a table">  
+ 
+
+## Pendientes
+Definitivamente el primer Pendiente es tapar con cinta negra los led para dormir en paz.
+Estaria bueno ver como salir un poco de la tabla, y dibujar graficos del ultimo mes o semana.
+
+
 
  
