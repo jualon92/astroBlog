@@ -3,7 +3,15 @@
     import SvgIcon from './SvgIcon.astro'
     import ModeSwitcherBtn from './ModeSwitcherBtn.svelte'
     import SearchBtn from './SearchBtn.svelte'
+    import AudioPlayer, { stopAll } from "./AudioPlayer.svelte"
 
+    let audioTracks = [
+    'https://sveltejs.github.io/assets/music/strauss.mp3',
+    'https://sveltejs.github.io/assets/music/holst.mp3',
+    'https://sveltejs.github.io/assets/music/satie.mp3'
+  ]
+
+   
 ---
 
 <header class="header">
@@ -19,7 +27,9 @@
         <div class="header__meta-more flex">
             <p class="header__desc">
                 { SITE.description }
+                 
             </p>
+             
             <nav class="header__nav flex">
                 <ul class="header__ref-list">
                     <li>
@@ -46,7 +56,10 @@
                     </li>
                 </ul>
             </nav>
+            
         </div>
+      
+         
     </div>
 </header>
 

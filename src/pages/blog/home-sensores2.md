@@ -15,8 +15,6 @@ category: proyectos
 ---
  
  
- <Image src="/images/uploads/arduino_sides.jpg"   alt="arduino set up with sensors on a table"/> 
-
 # Las bases
 Lo que se buscaba era medir la temperatura en la habitacion, mostrarlas en una tabla, en tiempo real, como si fuera un pronostico de la tv.
 
@@ -74,7 +72,6 @@ el terror de haber quemado arduino al invertir positivo con negativo...
 
  
 ## Fotos 
-<img src="/images/uploads/arduino_top.jpg" alt="arduino set up with sensors on a table">  
  
 
 ## Pendientes

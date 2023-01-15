@@ -15,7 +15,7 @@
             <a href={`/${post.category}/${post.slug}`} title={post.title}>{post.title} &rarr;</a>
         </h4>
         <p class="post-preview__desc">
-            {post.description}
+            adsadsads
         </p>
         <ul class="tag-list">
             {#each post.tags as tag}

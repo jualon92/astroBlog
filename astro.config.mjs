@@ -19,6 +19,10 @@ const __dirname = dirname(__filename);
 // @ts-check
 
 // https://astro.build/config
+
+// https://astro.build/config
+
+// https://astro.build/config
 export default defineConfig( /** @type {import('astro').AstroUserConfig} */{
   // root: '.',     // Where to resolve all URLs relative to. Useful if you have a monorepo project.
   // outDir: './dist',       // When running `astro build`, path to final static output
