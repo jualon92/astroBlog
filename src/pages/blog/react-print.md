@@ -1,7 +1,7 @@
 ---
 layout: $/layouts/post.astro
 title: Aplicaciones Web, Excel y Desafios
-description: Vale la pena migrar de Excel a Aplicacion Web?
+description: Vale la pena migrar de Excel a una Aplicacion Web?
 tags:
   - ciberseguridad
   - excel
@@ -28,7 +28,7 @@ No era tan malo como parecia...
 
 # Que ventajas  nos traeria migrar de excel a una Aplicacion web?
   
-## Autorizacion y Autenticacion
+## Autenticacion y Autorizacion
  - Logear en una aplicacion web es seguro. Utilizarla no plantea riesgo, en comparacion a archivos del paquete Office, que en total corresponden al 38% de vulnerabilidades documentadas por mail https://www.cisco.com/c/dam/m/digital/elq-cmcglobal/witb/acr2018/acr2018final.pdf?dtid=odicdc000016&ccid=cc000160&oid=anrsc005679&ecid=8196&elqTrackId=686210143d34494fa27ff73da9690a5b&elqaid=9452&elqat=2
  - El proceso de ingresar datos es  simple , y cuenta con token JWT. Podemos utilizar librerias que ya hacen todo por nosotros como NextAuth
  - La pagina a mostrar es construida on the fly  en base al usuario ie: su rol define como se mostrara la pagina, que permisos tendra.
